@@ -7,7 +7,7 @@
 			<field name="inherit_id" ref="sale.view_order_line_tree"/>
 			<field name="arch" type="xml">
                 <xpath expr="//field[@name='price_subtotal']" position="after">
-                    <field name="cancel_motif_id" string="Cancel motif"/>
+                    <field name="cancel_motif_id" string="Cancel motif" optional="hide"/>
 				</xpath>
 			</field>
 		</record>
